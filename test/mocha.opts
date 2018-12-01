@@ -1,0 +1,4 @@
+--require should
+--require should-sinon
+--ui bdd
+--recursive

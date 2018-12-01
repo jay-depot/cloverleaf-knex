@@ -1,0 +1,24 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["semistandard", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "brace-style": [
+      "error",
+      "1tbs",
+      {
+        "allowSingleLine": false
+      }
+    ],
+    "prettier/prettier": "error",
+    "curly": ["error", "all"]
+  },
+  "overrides": [
+    {
+      "files": ["src/*.js", "test/*.js", "patches/*.js"]
+    }
+  ],
+  "env": {
+    "mocha": true
+  }
+}
