@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jay-depot/cloverleaf-knex/issues"
   },
-  "homepage": "https://github.com/jay-depot/cloverleaf-knex#readme"
+  "homepage": "https://github.com/jay-depot/cloverleaf-knex#readme",
+  "peerDependencies": {
+    "knex": "^0.15.2",
+    "cloverleaf": "jay-depot/cloverleaf"
+  }
 }
