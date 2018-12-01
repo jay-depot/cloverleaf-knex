@@ -1,0 +1,19 @@
+{
+  "name": "cloverleaf-knex",
+  "version": "0.1.0",
+  "description": "SQL connector for cloverleaf that uses knex.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jay-depot/cloverleaf-knex.git"
+  },
+  "author": "Jason DePeaux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jay-depot/cloverleaf-knex/issues"
+  },
+  "homepage": "https://github.com/jay-depot/cloverleaf-knex#readme"
+}
